@@ -1,5 +1,30 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
 
-.launchTitle{
-    font-weight: bold;
-    font-size: large;
+.cardMedia {
+  padding-top: 80%;
+  height: 40px;
+}
+
+.launchTitle {
+  font-weight: bold;
+  font-size: large;
+}
+
+.cardContent {
+  flex-grow: 1;
+}
+
+.title {
+  font: bold;
+}
+
+.id,
+.flightNumber {
+  text-transform: capitalize;
+  display: block;
 }

@@ -1,0 +1,49 @@
+.modalContainer {
+  position: relative;
+}
+
+.modalContentContainer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.rocketImage {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.imageName {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.profile {
+  margin: 5px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: "#0F2851";
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  cursor: pointer;
+}
+.profileImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
+}
+
+.profileContainer {
+  display: flex;
+  overflow: scroll;
+  flex-direction: row;
+  row-gap: 4px;
+}
